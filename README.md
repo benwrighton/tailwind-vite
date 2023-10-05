@@ -10,8 +10,6 @@ Currently, two official plugins are available:
 
 https://tailwindcss.com/docs/guides/vite
 
-Edit src/App.jsx with tailwind HTML to view changes. 
+Edit src/index.html with tailwind to view changes. 
 
 Use the command `npm run dev` to watch/build files with hot reloading (HMR)
-
-TODO: Add to git repo
