@@ -6,6 +6,9 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    colors: {  // note: replaces! default color palette 
+      'blue': '#1fb6ff',
+    },
     extend: {},
   },
   plugins: [],
