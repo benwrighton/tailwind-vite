@@ -1,5 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 
+// import plugin from 'tailwindcss'
+// const plugin = require(tailwind/plugin);
+
 export default {
   content: [
     "./index.html",
@@ -11,6 +14,13 @@ export default {
     // },
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    // plugin(function ({addUtilities}) { 
+    //   const myUtilities = {
+    //     "bg-aqua": { background: "aqua" }
+    //   };
+    //   addUtilities(myUtilities);
+    //  }),
+  ],
 }
 
